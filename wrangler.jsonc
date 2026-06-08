@@ -1,5 +1,6 @@
   {
-    "name": "worker-name",
+    "name": "nacho-kitty",
     "compatibility_date": "2026-06-08",
     "main": "src/index.ts"
   }
+  
