@@ -1,8 +1,20 @@
 /* alternatively via jsdelivr */
 @import url('https://cdn.jsdelivr.net/npm/@catppuccin/palette/css/catppuccin.css');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 
-.my-div {
-  color:        var(--ctp-mocha-text);
-  background:   rgba(var(--ctp-macchiato-base-rgb) / 0.9);
-  border-color: hsla(var(--ctp-frappe-red-hsl) / 0.75);
+.center-text {
+  text-align: center;
+}
+
+h1 {
+  font-family:  "Unica One", sans-serif;
+  font-weight:  400;
+  font-style:   normal;
+}
+
+body {
+  color:        var(--ctp-mocha-rosewater);
+  background:   rgba(var(--ctp-macchiato-base-rgb));
+  border-color: hsla(var(--ctp-frappe-red-hsl));
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
 }
